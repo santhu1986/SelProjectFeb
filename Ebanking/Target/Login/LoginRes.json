@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Admin Login Functionality",
+        "description": "",
+        "id": "admin-login;verify-admin-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16558940300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should On Ranford HP",
+            "match": {
+              "location": "LoginSD.user_Should_On_Ranford_HP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4592667600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters \"Admin\" and \"Mindq@Sys\" click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "Mindq@Sys",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSD.user_Enters_Un_and_Pwd_click_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122035100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Validates Admin Login",
+            "match": {
+              "location": "LoginSD.user_Validates_Admin_Login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "D:/SeleniumPRJEvng/Ebanking/src/feature/Login.feature"
+  }
+]
