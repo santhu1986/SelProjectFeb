@@ -1,9 +1,0 @@
-Feature: Admin Login
-
-Scenario: Verify Admin Login Functionality
-
-Given User Should On Ranford HP
-
-When User Enters Un and Pwd click login
-
-Then User Validates Admin Login
